@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="JOBS" directorySegmentName="seg_0" id="2BC090F4-1B3D-8660-CF89-B700562332D3">
+<createdBy>ez220409</createdBy>
+<createdTime>2022-05-30 00:42:57 UTC</createdTime>
+<ownerDesignName>053022_3차</ownerDesignName>
+<schemaObject>76F86DE1-EBA3-CF5F-CB9A-EF5D6A2AEE38</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>4EBE0B08-024C-4588-3BB9-2E3E55A50DE6</segment>
+<tableSpace>F0FEF90E-40A3-E1A1-1160-AC9EEFD70916</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="JOB_ID" id="5B76BC6A-A364-CB45-C9C7-84FD1ED34177">
+<createdBy>ez220409</createdBy>
+<createdTime>2022-05-30 00:42:57 UTC</createdTime>
+<ownerDesignName>053022_3차</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MIN_SALARY" id="7B4DD097-89A7-F084-42F9-59875CAD8135">
+<createdBy>ez220409</createdBy>
+<createdTime>2022-05-30 00:42:57 UTC</createdTime>
+<ownerDesignName>053022_3차</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MAX_SALARY" id="AD8A1814-ABD6-2217-CABD-CE4FC0A203BC">
+<createdBy>ez220409</createdBy>
+<createdTime>2022-05-30 00:42:57 UTC</createdTime>
+<ownerDesignName>053022_3차</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="JOB_TITLE" id="B6BF42AB-3491-B8EB-C7F6-81A052ABAEC4">
+<createdBy>ez220409</createdBy>
+<createdTime>2022-05-30 00:42:57 UTC</createdTime>
+<ownerDesignName>053022_3차</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="JOB_ID_PK" id="0B4BA80F-84CA-EFC5-83EA-01997F52FC0B">
+<createdBy>ez220409</createdBy>
+<createdTime>2022-05-30 00:42:57 UTC</createdTime>
+<ownerDesignName>053022_3차</ownerDesignName>
+<schemaObject>76F86DE1-EBA3-CF5F-CB9A-EF5D6A2AEE38</schemaObject>
+<segment>9F79D1FD-2EC8-189B-A167-E36AD821FA19</segment>
+<tableSpace>F0FEF90E-40A3-E1A1-1160-AC9EEFD70916</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="JOB_ID_PK" id="E0A1503F-E82C-8DDD-581C-C7E766EBCD9F">
+<createdBy>ez220409</createdBy>
+<createdTime>2022-05-30 00:42:57 UTC</createdTime>
+<ownerDesignName>053022_3차</ownerDesignName>
+<segment>9F79D1FD-2EC8-189B-A167-E36AD821FA19</segment>
+<tableSpace>F0FEF90E-40A3-E1A1-1160-AC9EEFD70916</tableSpace>
+<existingIndex>0B4BA80F-84CA-EFC5-83EA-01997F52FC0B</existingIndex>
+<indexSegment>9F79D1FD-2EC8-189B-A167-E36AD821FA19</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

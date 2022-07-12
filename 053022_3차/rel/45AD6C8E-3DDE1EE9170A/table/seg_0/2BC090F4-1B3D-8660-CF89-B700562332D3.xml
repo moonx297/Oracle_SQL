@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2BC090F4-1B3D-8660-CF89-B700562332D3" schemaObject="76F86DE1-EBA3-CF5F-CB9A-EF5D6A2AEE38" name="JOBS">
+<sourceConnName>%EC%8B%A4%EC%8A%B5%EC%9A%A9</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>JOBS</sourceObjName>
+<createdBy>ez220409</createdBy>
+<createdTime>2022-05-30 00:42:57 UTC</createdTime>
+<commentInRDBMS>jobs table with job titles and salary ranges. Contains 19 rows.&lt;br/&gt;References with employees and job_history table.</commentInRDBMS>
+<ownerDesignName>053022_3차</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="JOB_ID" id="5B76BC6A-A364-CB45-C9C7-84FD1ED34177">
+<sourceConnName>%EC%8B%A4%EC%8A%B5%EC%9A%A9</sourceConnName>
+<sourceObjSchema>JOBS</sourceObjSchema>
+<sourceObjName>JOB_ID</sourceObjName>
+<createdBy>ez220409</createdBy>
+<createdTime>2022-05-30 00:42:57 UTC</createdTime>
+<commentInRDBMS>Primary key of jobs table.</commentInRDBMS>
+<ownerDesignName>053022_3차</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JOB_TITLE" id="B6BF42AB-3491-B8EB-C7F6-81A052ABAEC4">
+<sourceConnName>%EC%8B%A4%EC%8A%B5%EC%9A%A9</sourceConnName>
+<sourceObjSchema>JOBS</sourceObjSchema>
+<sourceObjName>JOB_TITLE</sourceObjName>
+<createdBy>ez220409</createdBy>
+<createdTime>2022-05-30 00:42:57 UTC</createdTime>
+<commentInRDBMS>A not null column that shows job title, e.g. AD_VP, FI_ACCOUNTANT</commentInRDBMS>
+<ownerDesignName>053022_3차</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35 BYTE</dataTypeSize>
+<ownDataTypeParameters>35 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>JOB_TITLE_NN</notNullConstraintName>
+</Column>
+<Column name="MIN_SALARY" id="7B4DD097-89A7-F084-42F9-59875CAD8135">
+<sourceConnName>%EC%8B%A4%EC%8A%B5%EC%9A%A9</sourceConnName>
+<sourceObjSchema>JOBS</sourceObjSchema>
+<sourceObjName>MIN_SALARY</sourceObjName>
+<createdBy>ez220409</createdBy>
+<createdTime>2022-05-30 00:42:57 UTC</createdTime>
+<commentInRDBMS>Minimum salary for a job title.</commentInRDBMS>
+<ownerDesignName>053022_3차</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAX_SALARY" id="AD8A1814-ABD6-2217-CABD-CE4FC0A203BC">
+<sourceConnName>%EC%8B%A4%EC%8A%B5%EC%9A%A9</sourceConnName>
+<sourceObjSchema>JOBS</sourceObjSchema>
+<sourceObjName>MAX_SALARY</sourceObjName>
+<createdBy>ez220409</createdBy>
+<createdTime>2022-05-30 00:42:57 UTC</createdTime>
+<commentInRDBMS>Maximum salary for a job title</commentInRDBMS>
+<ownerDesignName>053022_3차</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E0A1503F-E82C-8DDD-581C-C7E766EBCD9F" name="JOB_ID_PK">
+<sourceConnName>%EC%8B%A4%EC%8A%B5%EC%9A%A9</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>JOB_ID_PK</sourceObjName>
+<createdBy>ez220409</createdBy>
+<createdTime>2022-05-30 00:42:57 UTC</createdTime>
+<ownerDesignName>053022_3차</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B76BC6A-A364-CB45-C9C7-84FD1ED34177"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0B4BA80F-84CA-EFC5-83EA-01997F52FC0B" schemaObject="76F86DE1-EBA3-CF5F-CB9A-EF5D6A2AEE38" name="JOB_ID_PK">
+<sourceConnName>%EC%8B%A4%EC%8A%B5%EC%9A%A9</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>JOB_ID_PK</sourceObjName>
+<createdBy>ez220409</createdBy>
+<createdTime>2022-05-30 00:42:57 UTC</createdTime>
+<ownerDesignName>053022_3차</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B76BC6A-A364-CB45-C9C7-84FD1ED34177"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

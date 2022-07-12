@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="HR" directorySegmentName="seg_0" id="C14129B0-C70A-40C7-B6C2-9EC89725B95F">
+<sourceConnName>%EC%8B%A4%EC%8A%B5%EC%9A%A9</sourceConnName>
+<sourceObjName>HR</sourceObjName>
+<createdBy>ez220409</createdBy>
+<createdTime>2022-05-30 00:36:25 UTC</createdTime>
+<ownerDesignName>053022_3차</ownerDesignName>
+<schemaObject>76F86DE1-EBA3-CF5F-CB9A-EF5D6A2AEE38</schemaObject>
+<defTableSpace>F0FEF90E-40A3-E1A1-1160-AC9EEFD70916</defTableSpace>
+<privileges>CREATE VIEW, UNLIMITED TABLESPACE, CREATE DATABASE LINK, CREATE SEQUENCE, CREATE SESSION, ALTER SESSION, CREATE SYNONYM</privileges>
+<quotaItems>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem1" id="96D56ABB-8627-3C47-2C24-D44032495399">
+<createdBy>ez220409</createdBy>
+<createdTime>2022-05-30 00:36:25 UTC</createdTime>
+<ownerDesignName>053022_3차</ownerDesignName>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem2" id="969C2744-97BF-F7C1-76BD-458E7096F981">
+<createdBy>ez220409</createdBy>
+<createdTime>2022-05-30 00:36:35 UTC</createdTime>
+<ownerDesignName>053022_3차</ownerDesignName>
+<tableSpace>F0FEF90E-40A3-E1A1-1160-AC9EEFD70916</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem3" id="12B936ED-D603-B88C-B165-6AE67D3C79CC">
+<createdBy>ez220409</createdBy>
+<createdTime>2022-05-30 00:41:31 UTC</createdTime>
+<ownerDesignName>053022_3차</ownerDesignName>
+<tableSpace>F0FEF90E-40A3-E1A1-1160-AC9EEFD70916</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem4" id="996ACCBC-6BA1-4EDB-A1C0-F70815BD35CD">
+<createdBy>ez220409</createdBy>
+<createdTime>2022-05-30 00:41:53 UTC</createdTime>
+<ownerDesignName>053022_3차</ownerDesignName>
+<tableSpace>F0FEF90E-40A3-E1A1-1160-AC9EEFD70916</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem5" id="267E920F-C148-F32B-7E3B-897FB9A575A6">
+<createdBy>ez220409</createdBy>
+<createdTime>2022-05-30 00:42:57 UTC</createdTime>
+<ownerDesignName>053022_3차</ownerDesignName>
+<tableSpace>F0FEF90E-40A3-E1A1-1160-AC9EEFD70916</tableSpace>
+</QuotaItem>
+</quotaItems>
+</UserOraclev10g>
